@@ -1,6 +1,6 @@
 "use strict";
 
-var config = require('./lib/config');
+var Laravel = require('./lib/Laravel');
+Laravel.addTask('cssmin', require('./lib/tasks/cssmin'));
 
-// TODO: define tasks
-console.log(config);
+module.exports = Laravel;

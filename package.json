@@ -1,12 +1,29 @@
 {
   "name": "gulp-laravel",
   "version": "0.0.1",
+  "description": "Gulp implementation for Laravel",
+  "main": "index.js",
+  "keywords": [
+    "laravel",
+    "gulp",
+    "csso",
+    "task-runner"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/JeffreyVdb/gulp-laravel"
   },
+  "author": "Jeffrey Vandenborne",
+  "license": "MIT",
+  "homepage": "https://github.com/JeffreyVdb/gulp-laravel",
+  "bugs": {
+    "url": "https://github.com/JeffreyVdb/gulp-laravel/issues"
+  },
   "dependencies": {
+    "chalk": "^0.5.1",
     "exec-sync": "^0.1.6",
-    "gulp-util": "^3.0.2"
+    "gulp-util": "^3.0.2",
+    "lodash": "^3.0.0",
+    "run-sequence": "^1.0.2"
   }
 }
