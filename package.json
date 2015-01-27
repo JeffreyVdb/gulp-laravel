@@ -1,6 +1,6 @@
 {
   "name": "gulp-laravel",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Gulp implementation for Laravel",
   "main": "index.js",
   "keywords": [
@@ -22,6 +22,8 @@
   "dependencies": {
     "chalk": "^0.5.1",
     "exec-sync": "^0.1.6",
+    "gulp-if": "^1.2.5",
+    "gulp-load-plugins": "^0.8.0",
     "gulp-util": "^3.0.2",
     "lodash": "^3.0.0",
     "run-sequence": "^1.0.2"
