@@ -1,0 +1,12 @@
+{
+  "name": "gulp-laravel",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JeffreyVdb/gulp-laravel"
+  },
+  "dependencies": {
+    "exec-sync": "^0.1.6",
+    "gulp-util": "^3.0.2"
+  }
+}
