@@ -10,12 +10,9 @@ Laravel gulp is simply an implementation that aims to make it easy for users tha
 var gulp    = require('gulp'),
     Laravel = require('gulp-laravel');
 
-Laravel.addTask('autoprefixer', require('gulp-laravel-autoprefixer'));
-
 gulp.task('default', function () {
   (new Laravel(gulp))
     .startSection('compiling stylesheets')
-    .task('autoprefixer')
     .task('cssmin')
     .run();
 });
